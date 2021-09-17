@@ -5,7 +5,7 @@ import Projects from './pages/projects';
 import Contact from './pages/contact';
 import Resume from './pages/resume';
 
-export default function profileContainer (){
+export default function ProfileContainer (){
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
   const renderPage = () => {

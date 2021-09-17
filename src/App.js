@@ -1,5 +1,5 @@
 import './App.css';
-import Profile from './components/Profile';
+import Profile from './components/profileContainer';
 
 function App() {
   return (
@@ -8,3 +8,5 @@ function App() {
     </div>
   )
 }
+
+export default App;
