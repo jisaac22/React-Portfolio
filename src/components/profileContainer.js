@@ -26,7 +26,7 @@ export default function ProfileContainer (){
   return (
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage}
+      {renderPage()}
     </div>
   )
 }
