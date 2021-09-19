@@ -8,24 +8,31 @@ export default function Projects() {
    <section className="projects">
      
      <div className="project1">
-       <p>P1</p>
+       <a href="https://jisaac22.github.io/Pop-quiz/" >Pop Quiz</a>
+       <a href="https://github.com/jisaac22/Pop-quiz">Github Repo</a>
      </div>
      <div className="project1">
-       <p>P2</p>
+       <a href="https://warm-oasis-88552.herokuapp.com/" >Fitness Tracker</a>
+       <a href="https://github.com/jisaac22/Fitness-tracker">Github Repo</a>
      </div>
      <div className="project1">
-       <p>P3</p>
+       <a href="https://mighty-ocean-25788.herokuapp.com/" >Budget Tracker</a>
+       <a href="https://github.com/jisaac22/Budget-tracker">Github Repo</a>
      </div>
      <div className="project1">
-       <p>P4</p>
+       <a href="https://mighty-ocean-25788.herokuapp.com/" >Tech Blog</a>
+       <a href="https://github.com/jisaac22/Tech-Blog">Github Repo</a>
      </div>
      <div className="project1">
-       <p>P5</p>
+       <a href="https://mrg105.github.io/project-stormhouse/" >Storm House</a>
+       <a href="https://github.com/MrG105/project-stormhouse">Github Repo</a>
      </div>
      <div className="project1">
-       <p>P6</p>
+       <a href="https://jisaac22.github.io/Weather-forecast/" >Weather Forecast</a>
+       <a href="https://github.com/jisaac22/Weather-forecast">Github Repo</a> 
      </div>
    </section>
+   
    </section>
   )
 }

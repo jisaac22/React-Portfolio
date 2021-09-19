@@ -18,32 +18,27 @@ h1 {
   margin-left: 10px;
   font-size: 50px;
   margin-top: 45px;
-  background-color: brown;
   width: 30%;
 }
 
 .nav {
   margin-left: 60%;
-  background-color: brown;
 }
 
 li {
-  
   font-size: 35px;
   display: inline;
   margin: 8px;
-  background-color: royalblue;
 }
 
 a {
   text-decoration: none;
   color: black;
-  background-color: red;
+  ;
 }
 
 .aboutMe {
-  /* border: pink 2px solid; */
-  background-color: white;
+  background-color: mintcream;
   margin-top: 20px;
   height: 500px;
   width: 90%;
@@ -59,7 +54,6 @@ h2 {
 p {
   font-size: 25px;
   margin-top: 40px;
-  /* border: 3px solid black; */
   width: 80%;
   height: 300px;
   margin-left: 10%;
@@ -80,5 +74,21 @@ p {
   margin: 10px;
   margin-left: 5%;
   margin-top: 30px;
+  text-align: center;
 }
 
+.project1 a {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+footer a {
+  margin: 8px;
+}
