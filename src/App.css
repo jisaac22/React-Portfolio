@@ -51,7 +51,7 @@ h2 {
   margin-top: 40px;
 }
 
-p {
+.aboutmeInfo {
   font-size: 25px;
   margin-top: 40px;
   width: 80%;
@@ -91,4 +91,26 @@ footer {
 
 footer a {
   margin: 8px;
+}
+
+.name, .email, .message{
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.nameInput, .emailInput {
+  width: 20%;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.messageInput {
+  margin-top: 15px;
+  width: 45%;
+  height: 150px;
+  margin-left: 15px;
+  font-size: 20px;
 }
