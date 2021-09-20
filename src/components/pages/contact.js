@@ -8,7 +8,7 @@ export default function Contact() {
    const messageInput = document.querySelector('.messageInput')
    const errorInfo = document.querySelector('.errorInfo')
    if (!nameInput.value || !messageInput.value){
-     errorInfo.textContent = 'Missing '
+     errorInfo.textContent = 'Missing Information '
    }
    
   }
