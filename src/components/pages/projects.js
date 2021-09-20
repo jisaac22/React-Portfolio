@@ -13,7 +13,7 @@ export default function Projects() {
      </div>
      <div className="project1">
        <a href="https://warm-oasis-88552.herokuapp.com/" >Fitness Tracker</a>
-       <a href="https://github.com/jisaac22/Fitness-tracker">Github Repo</a>
+       <a href="https://github.com/jisaac22/Fitness-tracker"><img src="/public/GitHub-logo.png" ></img></a>
      </div>
      <div className="project1">
        <a href="https://mighty-ocean-25788.herokuapp.com/" >Budget Tracker</a>
