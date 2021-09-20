@@ -1,6 +1,18 @@
 import React from "react";
 
 export default function Contact() {
+
+  const submitHandler = () =>{
+   const nameInput = document.querySelector('.nameInput')
+  //  const emailInput = document.querySelector('.emailInput')
+   const messageInput = document.querySelector('.messageInput')
+   const errorInfo = document.querySelector('.errorInfo')
+   if (!nameInput.value || !messageInput.value){
+     errorInfo.textContent = 'Missing '
+   }
+   
+  }
+
   return (
   <section>
     <h2>Contact</h2>
@@ -16,6 +28,10 @@ export default function Contact() {
     <div>
       <p className="message">Message:</p>
       <textarea className="messageInput" rows="4"></textarea>
+    </div>
+    <div> 
+      <button className="btn" onClick={submitHandler}>Submit</button>
+      <p className="errorInfo"></p>
     </div>
    </section>
   
