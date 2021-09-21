@@ -25,7 +25,7 @@ h1 {
   margin-left: 60%;
 }
 
-li {
+.nav-item {
   font-size: 35px;
   display: inline;
   margin: 8px;
@@ -125,5 +125,15 @@ footer a {
   width: 45%;
   height: 150px;
   margin-left: 15px;
+  font-size: 20px;
+}
+
+.proficiencies {
+  margin-left: 40%;
+  margin-top: 15px;
+}
+
+.languages {
+  margin: 10px;
   font-size: 20px;
 }
