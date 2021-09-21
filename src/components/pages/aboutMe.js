@@ -3,6 +3,9 @@ import React from 'react'
 export default function AboutMe() {
   return (
     <section className="aboutMe">
+      <section>
+        <img src="./self.png" className="avatar"></img>
+      </section>
      <div>
        <h2>About Me</h2>
        <p className="aboutmeInfo">My Name is Jacob Sierra. I'm 29 and a full stack developer in progress. I have been taking a coding course for the past 6 months. 

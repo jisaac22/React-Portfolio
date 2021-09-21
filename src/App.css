@@ -42,8 +42,12 @@ ul li a {
 
 }
 
+.avatar {
+  margin-left: 45%;
+}
+
 .aboutMe {
-  background-color: mintcream;
+  /* background-color: mintcream; */
   margin-top: 20px;
   height: 500px;
   width: 90%;
